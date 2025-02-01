@@ -24,8 +24,7 @@ Carphophis vermis : Western Wormsnake
 Diadophis punctatus ssp : Ring-necked Snake
 Farancia abacura reinwardtii : Western Mudsnake
 Heterodon platirhinos : Eastern Hog-nosed Snake
-Cemophora coccinea copei
-Northern Scarletsnake
+Cemophora coccinea copei : Northern Scarletsnake
 Coluber constrictor ssp : North American Racer
 Lampropeltis calligaster : Prairie Kingsnake
 Lampropeltis gentilis – L. triangulum : Milksnake complex

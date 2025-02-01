@@ -1,19 +1,24 @@
 {
-    "label": "build",
-    "type": "shell",
-    "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
-    "args": [
-      "-fdiagnostics-color=always",
-      "-g",
-      "${file}",
-      "-o",
-      "${fileDirname}\\${fileBasenameNoExtension}.exe"
-    ],
-    "group": {
-      "kind": "build",
-      "isDefault": true
-    },
-    "problemMatcher": ["$gcc"],
-    "detail": "Generated task by Debugger."
-  }
-  
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build",
+          "type": "shell",
+          "command": "g++",
+          "args": [
+              "-fdiagnostics-color=always",
+              "-g",
+              "main.cpp",
+              "Animals.cpp",  // Add your additional source files here
+              "-o",
+              "main.exe"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": ["$gcc"],
+          "detail": "Generated task to build C++ project"
+      }
+  ]
+}
