@@ -1,5 +1,6 @@
 #include "Animals.h"
 #include <iomanip>
+using namespace std;
 
 Animals::Animals() : name("Snake"), type("Cobra"), gender("M") {}
 Animals::Animals(string nameIn, string typeIn, string genderIn) : name(nameIn), type(typeIn), gender(genderIn) {}
