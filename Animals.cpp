@@ -19,10 +19,6 @@ string Animals::getGender() const {return gender; }
 //print method
 void Animals::print() const {cout << name << ", " << type << ", " << gender << "." << endl;}
 
-
-
-
-
 //setRandom
 void Animals::setRandomSnake(string namesArray[], string snakesArray[]) 
 {
