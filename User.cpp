@@ -8,21 +8,27 @@ using namespace std;
 //default constructor
 User::User()
 {
-    name = "Aiden";
-    personality = "Gemeni";
-    snakeAssigned = "Billy";
+    name = "";
+    for (int i = 0; i < PERSONALITY_MAX; i++)
+    {
+        personalityTraits[i] = "";
+    }
+    snakeAssigned = "";
 }
 
 
 //getter methods
-string User:: getName() const
+string User::getName() const
 {
     return name;
 }
 
+//prob doesnt work
 string User::getPersonality() const
 {
-    return personality;
+    for (int i = 0; i < PERSONALITY_MAX; i++)
+    {
+    }
 }
 
 string User::getSnake() const

@@ -19,6 +19,12 @@ string Animals::getGender() const {return gender; }
 //print method
 void Animals::print() const {cout << name << ", " << type << ", " << gender << "." << endl;}
 
+//initalizes snake types in order
+void Animals::setType(string typeArray[], int index)
+{
+    type = typeArray[index];
+}
+
 //setRandom
 void Animals::setRandomSnake(string namesArray[], string snakesArray[]) 
 {
@@ -39,3 +45,7 @@ void Animals::setRandomSnake(string namesArray[], string snakesArray[])
         gender = "M"; //male
     }
 }
+
+
+
+//sets snake traits

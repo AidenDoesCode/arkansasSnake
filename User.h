@@ -6,9 +6,12 @@
 
 using namespace std;
 
+static const int PERSONALITY_MAX = 5;
+
 class User
 {
     public:
+
         User(); //default constructor
 
         //getters
@@ -17,7 +20,7 @@ class User
         string getSnake() const;
 
     private:
-        string personality;
+        string personalityTraits[PERSONALITY_MAX];
         string snakeAssigned;
         string name;
 };
