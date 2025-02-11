@@ -129,10 +129,6 @@ int main()
     
     setSnakeTypes(snakeTypes, SNAKES_LIST_SIZE, snake);
 
-    for (int i = 0; i < SNAKES_LIST_SIZE; i++)
-    {
-        cout << snake[i].getType() << endl;
-    }
     //Start of terminal
 
     // cout << "Hello there! Welcome to the jungle that is Arkansas's Native Snakes! \n";
